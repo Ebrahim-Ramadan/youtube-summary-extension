@@ -4,7 +4,16 @@
 - 🎯 Output the summarized video transcript.
 - 🌐 Supports multiple languages
 
+<br/>
 
+#### ps:
+```
+Transcribing Started ...Traceback (most recent call last):
+  File "Q:\youtube-summary-extension\main.py", line 101, in <module>
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+```
 
 
 ⚠️ **IMPORTANT: API Key Setup**

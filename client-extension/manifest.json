@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "twt imgs optimized",
+    "version": "1.0",
+    "description": "A basic Chrome extension",
+    "permissions": ["tabs", "activeTab", "downloads"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "assets/icon.png",
+        "48": "assets/icon.png",
+        "128": "assets/icon.png"
+      }
+    },
+    "icons": {
+      "16": "assets/icon.png",
+      "48": "assets/icon.png",
+      "128": "assets/icon.png"
+    },
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["content.js"]
+        }
+      ],
+      "background": {
+        "scripts": ["background.js"]
+      }
+  }
