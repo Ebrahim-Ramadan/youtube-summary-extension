@@ -6,7 +6,7 @@
 
 <br/>
 
-#### ps:
+#### problems with pip openai:
 ```
 Transcribing Started ...Traceback (most recent call last):
   File "Q:\youtube-summary-extension\main.py", line 101, in <module>
@@ -14,8 +14,16 @@ Alternatively, you can pin your installation to the old version, e.g. `pip insta
 
 A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
 ```
+<br/>
+<br/>
 
-
+#### DOCUMENTATION TO RUN:
+hit `/api/transcribe` ednpoint with `'Content-Type': 'application/json'` in the POST-method req header, and 
+```
+{
+  'youtube_link':'<THE URL GOES HERE>'
+}
+```
 ⚠️ **IMPORTANT: API Key Setup**
 
 Before running the application, please follow the steps below:
